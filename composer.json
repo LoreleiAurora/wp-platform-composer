@@ -1,0 +1,26 @@
+{
+  "name": "loreleiaurora/wp-platform-composer",
+  "type": "composer-plugin",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lorelei Aurora",
+      "email": "iam@l5i.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LoreleiAurora\\WPPlatform\\Composer\\": "src"
+    }
+  },
+  "extra": {
+    "class": "LoreleiAurora\\WPPlatform\\Composer\\Plugin"
+  },
+  "require": {
+    "composer-plugin-api": "^1.1"
+  },
+  "require-dev": {
+    "composer/composer": "^1.0"
+  }
+}
